@@ -39,3 +39,7 @@ fetch("https://fakestoreapi.com/products/1")
 ```bash
 npm i react-bootstrap bootstrap
 ```
+
+```bash
+npm i react-router-dom
+```

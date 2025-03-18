@@ -20,8 +20,22 @@ RTK also includes support for middleware, including the Redux Thunk middleware, 
 
 ```bash
 npx create-vite@latest ./
+
+npm install
 ```
 
+# Api
+
+https://fakestoreapi.com/
+
+```js
+fetch("https://fakestoreapi.com/products/1")
+  .then((res) => res.json())
+  .then((json) => console.log(json));
+```
+
+# Packages
+
 ```bash
-npm install
+npm i react-bootstrap bootstrap
 ```

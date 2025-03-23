@@ -43,3 +43,8 @@ npm i react-bootstrap bootstrap
 ```bash
 npm i react-router-dom
 ```
+
+```bash
+npm install @reduxjs/toolkit
+npm install react-redux
+```

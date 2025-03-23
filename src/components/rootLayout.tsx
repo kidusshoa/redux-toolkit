@@ -3,7 +3,7 @@ import NavBar from "./navBar";
 
 const RootLayout = () => {
   return (
-    <div style={{ alignItems: "top" }}>
+    <div style={{ alignItems: "top", width: "100%" }}>
       <NavBar />
 
       <main>

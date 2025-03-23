@@ -48,3 +48,7 @@ npm i react-router-dom
 npm install @reduxjs/toolkit
 npm install react-redux
 ```
+
+```browser
+instal redux dev-tools
+```

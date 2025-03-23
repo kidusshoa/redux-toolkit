@@ -20,15 +20,14 @@ const NavBar = () => {
               Products
             </Nav.Link>
           </Nav>
-          <Navbar.Toggle>
-            <Navbar.Collapse className="justify-content-end">
-              <Navbar.Text>
-                <Nav.Link to="/" as={Link}>
-                  My Bag 0
-                </Nav.Link>
-              </Navbar.Text>
-            </Navbar.Collapse>
-          </Navbar.Toggle>
+          <Navbar.Toggle />
+          <Navbar.Collapse className="justify-content-end">
+            <Navbar.Text>
+              <Nav.Link to="/cart" as={Link}>
+                My Bag 0
+              </Nav.Link>
+            </Navbar.Text>
+          </Navbar.Collapse>
         </Navbar.Collapse>
       </Container>
     </Navbar>
